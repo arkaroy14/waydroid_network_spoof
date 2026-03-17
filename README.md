@@ -24,9 +24,6 @@ signal with real-looking WiFi + LTE values — no system modification required.
 | `hasTransport(CELLULAR)` | `false` | `true` |
 | `NetworkInfo.getType()` | `9` (ETHERNET) | `1` (WIFI) |
 | `NetworkInfo.getTypeName()` | `"Ethernet"` | `"WIFI"` |
-| `NetworkInterface eth0` | `eth0` | `wlan0` |
-| `NetworkInterface eth1` | `eth1` | `rmnet_data3` |
-| `NetworkInterface eth2+` | `eth2+` | `rmnet_data4+` |
 | `WifiManager.isWifiEnabled()` | `false` | `true` |
 | `WifiManager.getWifiState()` | `1` | `3` (ENABLED) |
 | `TelephonyManager.getNetworkType()` | `0` | `13` (LTE) |
